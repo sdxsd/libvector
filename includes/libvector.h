@@ -1,5 +1,5 @@
-#ifndef LIBFT_H
-# define LIBFT_H
+#ifndef LIBVECTOR_H
+# define LIBVECTOR_H
 
 # include <stddef.h>
 

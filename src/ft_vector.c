@@ -37,7 +37,7 @@ The definition of Free Software is as follows:
 A program is free software if users have all of these freedoms.
 */
 
-#include "libft.h"
+#include "../includes/libvector.h"
 #include <stdlib.h>
 
 void	*free_vector(t_vector *vec, void (*dealloc) (void *))

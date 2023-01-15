@@ -37,7 +37,7 @@ The definition of Free Software is as follows:
 A program is free software if users have all of these freedoms.
 */
 
-#include "libft.h"
+#include "../includes/libvector.h"
 
 // NOTE: Returns last element in vector.
 t_vector	*vector_get_last(t_vector *vec)

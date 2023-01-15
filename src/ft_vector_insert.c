@@ -38,13 +38,13 @@ A program is free software if users have all of these freedoms.
 */
 
 #include <stdlib.h>
-#include "libft.h"
+#include "../includes/libvector.h"
 
 t_vector	*vector_new(void *data)
 {
 	t_vector	*new;
 
-	new = ft_calloc(sizeof(t_vector), 1);
+	new = calloc(sizeof(t_vector), 1);
 	if (!new)
 		return (NULL);
 	new->index = -1;
